@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.loginHeader {
+  background-color: white;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.loginHeader h1 {
+  color: #D110A4;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3.1em;
+  font-weight: 900;
+}
+
+.loginHeader h2 {
+  color: #594E54;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  margin-top: -0.9em;
+  margin-bottom: 1.5em;
+}
+
+.loginHeader .image1 {
+  background-image: url("undraw_airport_2581.png");
+}
+
+.buttonsSection {
+  background-color: 0;
+  position: absolute;
+  top: 68.5%;
+  left: 50%;
+  margin-left: -7em;
+  text-align: center;
+}
+
+.buttonsSection p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9em;
+  color: #594E54;
+}
+
+.buttonsSection .logIn {
+  font-size: 1.1em;
+  background: none;
+  margin: 0.4em;
+  padding: 1em 4.5em;
+  border: 2px solid #594E54;
+  border-radius: 3em;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  color: #594E54;
+}
+
+.buttonsSection .logIn:active {
+  background-color: #594E54;
+  color: white;
+}
+
+.buttonsSection .signUp {
+  font-size: 1.1em;
+  background-color: #D110A4;
+  margin: 0.4em;
+  padding: 1em 4em;
+  color: white;
+  border: 2px solid #D110A4;
+  border-radius: 3em;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+}
+
+.buttonsSection .signUp:active {
+  background-color: #A80D84;
+  border: 2px solid #A80D84;
+}
+
+.welcomeHeader {
+  margin: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2em;
+}
+
+.welcomeHeader .welcomeBack {
+  color: #594E54;
+}
+
+.welcomeHeader .profileAvatar {
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 1em 1.2em;
+  background-color: #9d69da;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+}
+
+.middle {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: #594E54;
+  font-size: 1.18em;
+}
+
+.contentFirst {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contentFirst div {
+  height: 20vh;
+  margin-bottom: 2em;
+  border: 2px solid #9d69da;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+  border-radius: 5px;
+  padding: 0.4em;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  color: #594E54;
+}
+
+.contentFirst div:active {
+  border: 2px solid #D110A4;
+}
+
+.backToTop {
+  position: fixed;
+  font-size: 3em;
+  background-color: transparent;
+  opacity: 0.7;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+}
+
+.firstImg {
+  overflow: hidden;
+  position: relative;
+  top: -5em;
+}
+
+.secondImg {
+  position: relative;
+  right: 12.4em;
+  bottom: 6em;
+}
+
+.firstArticle {
+  margin: 1.2em;
+}
+
+.firstArticle .firstHeading {
+  position: relative;
+  bottom: 2.2em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+  font-size: 2.7em;
+  color: #D110A4;
+}
+
+.firstArticle .articleCity {
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+  color: #594E54;
+  position: relative;
+  bottom: 6em;
+}
+
+.secondArticle {
+  margin-top: 1.2em;
+  margin-left: 4.5em;
+}
+
+.secondArticle .secondHeading {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 900;
+  font-size: 2.7em;
+  color: #D110A4;
+  position: relative;
+  bottom: 3.6em;
+}
+
+.secondArticle .articleNightlife {
+  width: 94%;
+  font-family: "Montserrat", sans-serif;
+  color: #594E54;
+  position: relative;
+  bottom: 9.7em;
+}
+
+.btn-email-city {
+  font-size: 1.1em;
+  background-color: #9d69da;
+  margin: 1.2em;
+  margin-top: -6em;
+  padding: 1em 3em;
+  border: 2px solid #9d69da;
+  border-radius: 3em;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.btn-back-city {
+  font-size: 1.1em;
+  background: none;
+  margin: 1.2em;
+  margin-top: -0.6em;
+  padding: 0.5em 3.2em;
+  border: 2px solid #594E54;
+  border-radius: 3em;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  color: #594E54;
+  text-align: center;
+  position: relative;
+}
+
+.btn-back-city i {
+  font-size: 2.2em;
+  vertical-align: middle;
+  padding-right: 0.2em;
+}
+
+.firstHeading.cntry-heading-one {
+  font-weight: 900;
+  font-size: 2.3em;
+  margin-bottom: 0.4em;
+}
+
+.secondHeading.cntry-heading-two {
+  margin-top: 1.2em;
+}
+/*# sourceMappingURL=style.css.map */

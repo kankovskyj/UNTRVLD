@@ -1,0 +1,246 @@
+$defBlue: #9d69da;
+$defRuby: #D110A4;
+$defGrey: #594E54;
+$headFont: 'Cormorant Garamond', serif;
+$textFont: 'Montserrat', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+// first page start
+.loginHeader {
+    background-color: white;
+    text-align: center;
+    margin-top: 3em;
+    h1 {
+        color: $defRuby;
+        font-family: $headFont;
+        font-size: 3.1em;
+        font-weight: 900;
+    }
+    h2 {
+        color: $defGrey;
+        font-family: $textFont;
+        font-size: 1em;
+        margin-top: -0.9em;
+        margin-bottom: 1.5em;
+    }
+    .image1 {
+        background-image: url("undraw_airport_2581.png");
+    }
+}
+
+.buttonsSection {
+    background-color: blue($color: #000000);
+    position: absolute;
+    top: 68.5%;
+    left: 50%;
+    margin-left: -7em;
+    text-align: center;
+    p {
+        font-family: $textFont;
+        font-size: 0.9em;
+        color: $defGrey
+    }
+    .logIn {
+        font-size: 1.1em;
+        background: none;
+        margin: 0.4em;
+        padding: 1em 4.5em;
+        border: 2px solid $defGrey;
+        border-radius: 3em;
+        font-family: $textFont;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+        color: $defGrey;
+    }
+    .logIn:active {
+        background-color: $defGrey;
+        color: white;
+    }
+    .signUp {
+        font-size: 1.1em;
+        background-color: $defRuby;
+        margin: 0.4em;
+        padding: 1em 4em;
+        color: white;
+        border: 2px solid $defRuby;
+        border-radius: 3em;
+        font-family: $textFont;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+    }
+    .signUp:active {
+        background-color: #A80D84;
+        border: 2px solid #A80D84;
+
+    }
+}
+// first page end
+
+// second page start
+
+.welcomeHeader {
+    margin: 1.2em;
+    font-family: $textFont;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    .welcomeBack {
+        color: $defGrey;
+        }
+    .profileAvatar {
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 1em 1.2em;
+        background-color: $defBlue;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+    }
+}
+
+.middle {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-family: $textFont;
+    color: $defGrey;
+    font-size: 1.18em;
+}
+
+.contentFirst {
+    text-align: center;
+    font-family: $textFont;
+    div {
+        height: 20vh;
+        margin-bottom: 2em;
+        border: 2px solid $defBlue;
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+        border-radius: 5px;
+        padding: 0.4em;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+        color: $defGrey;
+    }
+    div:active {
+        border: 2px solid $defRuby;
+    }
+}
+
+.backToTop {
+    position: fixed;
+    font-size: 3em;
+    background-color: transparent;
+    opacity: 0.7;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+
+
+// second page end
+
+
+//city page start
+    //images
+.firstImg {
+    overflow: hidden;
+    position: relative;
+    top: -5em;
+}
+.secondImg {
+    position: relative;
+    right: 12.4em;
+    bottom: 6em;
+}
+    //articles
+.firstArticle {
+    margin: 1.2em;
+    .firstHeading {    
+        position: relative;
+        bottom: 2.2em;
+        font-family: $headFont;
+        font-weight: 900;
+        font-size: 2.7em;
+        color: $defRuby;
+    }
+    .articleCity {
+        width: 80%;
+        font-family: $textFont;
+        color: $defGrey;
+        position: relative;
+        bottom: 6em;
+    }
+}
+
+.secondArticle {
+    margin-top: 1.2em;
+    margin-left: 4.5em;
+    .secondHeading {
+        font-family: $headFont;
+        font-weight: 900;
+        font-size: 2.7em;
+        color: $defRuby;
+        position: relative;
+        bottom: 3.6em;
+    }
+    .articleNightlife {
+        width: 94%;
+        font-family: $textFont;
+        color: $defGrey;
+        position: relative;
+        bottom: 9.7em;
+
+    }
+    
+}
+
+.btn-email-city {
+    font-size: 1.1em;
+    background-color: $defBlue;
+    margin: 1.2em;
+    margin-top: -6em;
+    padding: 1em 3em;
+    border: 2px solid $defBlue;
+    border-radius: 3em;
+    font-family: $textFont;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.btn-back-city {
+    font-size: 1.1em;
+    background: none;
+    margin: 1.2em;
+    margin-top: -0.6em;
+    padding: 0.5em 3.2em;
+    border: 2px solid $defGrey;
+    border-radius: 3em;
+    font-family: $textFont;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+    color: $defGrey;
+    text-align: center;
+    position: relative;
+    i {
+        font-size: 2.2em;
+        vertical-align: middle;
+        padding-right: 0.2em;
+    }
+}
+.firstHeading.cntry-heading-one {
+    font-weight: 900;
+    font-size: 2.3em;
+    margin-bottom: 0.4em;
+}
+.secondHeading.cntry-heading-two {
+    margin-top: 1.2em;
+}
