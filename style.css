@@ -13,7 +13,7 @@ body {
 .loginHeader {
   background-color: white;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 1.5em;
 }
 
 .loginHeader h1 {
@@ -160,6 +160,28 @@ body {
   z-index: 999;
 }
 
+.btn-back-up {
+  font-size: 1.1em;
+  background: none;
+  margin: 1.2em;
+  margin-top: -0.6em;
+  padding: 0.5em 3.2em;
+  border: 2px solid #594E54;
+  border-radius: 3em;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  color: #594E54;
+  text-align: center;
+  position: relative;
+}
+
+.btn-back-up i {
+  font-size: 2.2em;
+  vertical-align: middle;
+  padding-right: 0.2em;
+}
+
 .firstImg {
   overflow: hidden;
   position: relative;
@@ -167,9 +189,9 @@ body {
 }
 
 .secondImg {
+  overflow: hidden;
   position: relative;
-  right: 12.4em;
-  bottom: 6em;
+  bottom: 6.9em;
 }
 
 .firstArticle {
@@ -195,7 +217,7 @@ body {
 
 .secondArticle {
   margin-top: 1.2em;
-  margin-left: 4.5em;
+  margin: 1.2em;
 }
 
 .secondArticle .secondHeading {
@@ -204,7 +226,7 @@ body {
   font-size: 2.7em;
   color: #D110A4;
   position: relative;
-  bottom: 3.6em;
+  bottom: 2.9em;
 }
 
 .secondArticle .articleNightlife {
@@ -212,7 +234,7 @@ body {
   font-family: "Montserrat", sans-serif;
   color: #594E54;
   position: relative;
-  bottom: 9.7em;
+  bottom: 7.6em;
 }
 
 .btn-email-city {
