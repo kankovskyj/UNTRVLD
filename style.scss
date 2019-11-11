@@ -15,10 +15,12 @@ body {
     width: 100%;
 }
 // first page start
+.loginWrapper {
+}
 .loginHeader {
     background-color: white;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 1.5em;
     h1 {
         color: $defRuby;
         font-family: $headFont;
@@ -144,7 +146,25 @@ body {
     z-index: 999;
 }
 
-
+.btn-back-up {
+    font-size: 1.1em;
+    background: none;
+    margin: 1.2em;
+    margin-top: -0.6em;
+    padding: 0.5em 3.2em;
+    border: 2px solid $defGrey;
+    border-radius: 3em;
+    font-family: $textFont;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+    color: $defGrey;
+    text-align: center;
+    position: relative;
+    i {
+        font-size: 2.2em;
+        vertical-align: middle;
+        padding-right: 0.2em;
+    }
+}
 
 // second page end
 
@@ -157,9 +177,9 @@ body {
     top: -5em;
 }
 .secondImg {
+    overflow: hidden;
     position: relative;
-    right: 12.4em;
-    bottom: 6em;
+    bottom: 6.9em;
 }
     //articles
 .firstArticle {
@@ -183,21 +203,21 @@ body {
 
 .secondArticle {
     margin-top: 1.2em;
-    margin-left: 4.5em;
+    margin: 1.2em;
     .secondHeading {
         font-family: $headFont;
         font-weight: 900;
         font-size: 2.7em;
         color: $defRuby;
         position: relative;
-        bottom: 3.6em;
+        bottom: 2.9em;
     }
     .articleNightlife {
         width: 94%;
         font-family: $textFont;
         color: $defGrey;
         position: relative;
-        bottom: 9.7em;
+        bottom: 7.6em;
 
     }
     
