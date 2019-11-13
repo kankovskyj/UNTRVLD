@@ -143,45 +143,6 @@ body {
   border: 2px solid #D110A4;
 }
 
-.backToTop {
-  position: fixed;
-  font-size: 3em;
-  background-color: transparent;
-  opacity: 0.7;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: 999;
-}
-
-.btn-back-up {
-  font-size: 1.1em;
-  background: none;
-  margin: 1.2em;
-  margin-top: -0.6em;
-  padding: 0.5em 3.2em;
-  border: 2px solid #594E54;
-  border-radius: 3em;
-  font-family: "Montserrat", sans-serif;
-  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
-          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
-  color: #594E54;
-  text-align: center;
-  position: relative;
-}
-
-.btn-back-up i {
-  font-size: 2.2em;
-  vertical-align: middle;
-  padding-right: 0.2em;
-}
-
 .firstImg {
   overflow: hidden;
   position: relative;
