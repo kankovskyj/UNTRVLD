@@ -133,9 +133,15 @@ body {
         border: 2px solid $defRuby;
     }
 }
-
-
-
+.btn-wrapper {
+    text-align: center;
+    color: $defRuby;
+    font-size: 2.8em;
+    margin: 0.7em;
+    .back-to-top {
+      display: inline-block;
+    }
+}
 // second page end
 
 
