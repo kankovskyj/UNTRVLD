@@ -143,6 +143,17 @@ body {
   border: 2px solid #D110A4;
 }
 
+.btn-wrapper {
+  text-align: center;
+  color: #D110A4;
+  font-size: 2.8em;
+  margin: 0.7em;
+}
+
+.btn-wrapper .back-to-top {
+  display: inline-block;
+}
+
 .firstImg {
   overflow: hidden;
   position: relative;
