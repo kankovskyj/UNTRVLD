@@ -143,6 +143,17 @@ body {
   border: 2px solid #D110A4;
 }
 
+.btn-wrapper {
+  text-align: center;
+  color: #D110A4;
+  font-size: 2.8em;
+  margin: 0.7em;
+}
+
+.btn-wrapper .back-to-top {
+  display: inline-block;
+}
+
 .firstImg {
   overflow: hidden;
   position: relative;
@@ -244,5 +255,18 @@ body {
 
 .secondHeading.cntry-heading-two {
   margin-top: 1.2em;
+}
+
+.firstHeading.mtns-heading-one {
+  font-weight: 900;
+  margin-bottom: 0.4em;
+}
+
+.secondHeading.mtns-heading-two {
+  margin-top: 1.2em;
+}
+
+.articleCity.mtns {
+  margin-top: -0.8em;
 }
 /*# sourceMappingURL=style.css.map */
