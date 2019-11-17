@@ -151,7 +151,13 @@ body {
 }
 
 .btn-wrapper .back-to-top {
+  width: 1.1em;
+  height: 1.1em;
   display: inline-block;
+}
+
+.btn-wrapper .back-to-top i {
+  vertical-align: middle;
 }
 
 .firstImg {
