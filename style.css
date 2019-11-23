@@ -272,7 +272,7 @@ body {
   margin-top: -0.6em;
   padding: 0.5em 3.2em;
   border: 2px solid #594E54;
-  border-radius: 3em;
+  border-radius: 9em;
   font-family: "Montserrat", sans-serif;
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
@@ -299,5 +299,62 @@ body {
 
 .firstHeading, .mtns-heading-one {
   margin-top: -0.5em;
+}
+
+.profile-photo-card {
+  background: #9d69da;
+  height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.nophoto-text {
+  color: white;
+  font-size: 6em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.details-wrapper {
+  margin-top: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.dt {
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.dt p {
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 5px;
+}
+
+.dt a {
+  margin-left: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+.dt i {
+  float: right;
+}
+
+.settinx {
+  margin-top: 1em;
 }
 /*# sourceMappingURL=style.css.map */
