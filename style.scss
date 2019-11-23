@@ -255,7 +255,7 @@ body {
     margin-top: -0.6em;
     padding: 0.5em 3.2em;
     border: 2px solid $defGrey;
-    border-radius: 3em;
+    border-radius: 9em;
     font-family: $textFont;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
     color: $defGrey;
@@ -277,4 +277,45 @@ body {
 }
 .firstHeading, .mtns-heading-one {
     margin-top: -0.5em;
+}
+// settings
+.profile-photo-card {
+    background: $defBlue;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nophoto-text {
+    color: white;
+    font-size: 6em;
+    font-family: $textFont;
+}
+.details-wrapper {
+    margin-top: 1em;
+    font-family: $textFont;
+}
+.dt {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    p {
+        font-size: 1.5em;
+        padding-top: 0.5em;
+        padding-bottom: 5px;
+    }
+    a {
+        margin-left: 0.1em;
+        margin-bottom: 0.5em;
+    }
+    i {
+        float: right;
+    }
+}
+
+.settinx {
+    margin-top: 1em;
 }
