@@ -179,6 +179,11 @@ body {
     position: relative;
     top: -5em;
 }
+.firstImg, .mntns {
+    overflow: hidden;
+    position: relative;
+    top: -6.06em;
+}
 .secondImg {
     overflow: hidden;
     position: relative;
@@ -266,4 +271,7 @@ body {
 }
 .secondHeading.cntry-heading-two {
     margin-top: 1.2em;
+}
+.firstHeading, .mtns-heading-one {
+    margin-top: -0.5em;
 }

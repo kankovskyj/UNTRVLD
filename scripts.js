@@ -1,7 +1,7 @@
 // USER SETTINGS SHOW AND HREF TO TEMPLATE
 $(".profileAvatar").click(function(){
     $(".profileAvatar").removeClass("profileAvatar").addClass("profileSettings").click(function(){
-        $(this).attr("href", "https://www.facebook.com/honza.kankovsky")
+        $(this).attr("href", "Settings.html")
     })
 });
 // RANDOM ADVENTURE LOCATION
