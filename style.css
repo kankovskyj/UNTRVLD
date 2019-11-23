@@ -103,6 +103,7 @@ body {
 }
 
 .welcomeHeader .profileAvatar {
+  font-weight: 900;
   text-decoration: none;
   color: white;
   border-radius: 5px;
@@ -110,6 +111,29 @@ body {
   background-color: #9d69da;
   -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
           box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  border-bottom: 2px solid #6E4998;
+}
+
+.welcomeHeader .profileAvatar::before {
+  content: 'JK';
+}
+
+.welcomeHeader .profileSettings {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 1em 1.2em;
+  background-color: #D110A4;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+  border-bottom: 2px solid #920B72;
+}
+
+.welcomeHeader .profileSettings::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f4fe";
+  font-weight: 700;
 }
 
 .middle {

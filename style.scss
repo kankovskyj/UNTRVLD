@@ -1,9 +1,12 @@
+// SASS COLORS
 $defBlue: #9d69da;
+$defBlueDarken: #6E4998;
 $defRuby: #D110A4;
+$defRubyDarken: #920B72;
 $defGrey: #594E54;
 $headFont: 'Cormorant Garamond', serif;
 $textFont: 'Montserrat', sans-serif;
-
+// APP
 * {
     margin: 0;
     padding: 0;
@@ -97,12 +100,32 @@ body {
         color: $defGrey;
         }
     .profileAvatar {
+        font-weight: 900;
         text-decoration: none;
         color: white;
         border-radius: 5px;
         padding: 1em 1.2em;
         background-color: $defBlue;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+        border-bottom: 2px solid $defBlueDarken;
+    }
+    .profileAvatar::before {
+        content: 'JK';
+    }
+    .profileSettings {
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        padding: 1em 1.2em;
+        background-color: $defRuby;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.14);
+        border-bottom: 2px solid $defRubyDarken;
+    }
+    .profileSettings::before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f4fe";
+        font-weight: 700;
     }
 }
 
@@ -114,7 +137,6 @@ body {
     color: $defGrey;
     font-size: 1.18em;
 }
-
 .contentFirst {
     text-align: center;
     font-family: $textFont;
