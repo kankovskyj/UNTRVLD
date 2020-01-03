@@ -1,6 +1,6 @@
 {   
     "name": "UNTRVLD.",
     "short_name": "UNTRLD",
-    "display": "browser", /* Could be "fullscreen", "standalone", "minimal-ui", or "browser" */
-    "orientation": "portrait" /* Could be "landscape" or "portrait" */
+    "display": "browser",
+    "orientation": "portrait"
 }
