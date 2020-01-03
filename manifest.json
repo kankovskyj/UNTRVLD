@@ -1,4 +1,6 @@
 {   
+    "manifest_version": 2,
+    "version": "0.1",
     "name": "UNTRVLD.",
     "short_name": "UNTRLD",
     "display": "browser",
