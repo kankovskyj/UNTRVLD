@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-image: url(/images/lscapeblock.svg);
+    background-image: url(./images/lscapeblock.svg);
     background-color: white;
     background-repeat: no-repeat;
     background-size: contain;
