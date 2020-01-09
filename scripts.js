@@ -15,3 +15,4 @@ $(".back-to-top").click(function() {
         scrollTop: $("head").offset().top
     }, 1000);
 });
+//SCRIPT TO LOGOUT IN SETTINGS
